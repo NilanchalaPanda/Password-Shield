@@ -7,16 +7,16 @@
   font-family: 'Poppins', sans-serif;
 }
 .register{
-  padding-bottom: calc(100vh + 200px);
+  padding-top: 30px;
+  min-height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 18%;
-  left: 18%;
-  right: 12%;
   min-width: 330px;
   max-width: 430px;
 
@@ -92,9 +92,6 @@ input.button:hover{
   color: red;
 }
 @media screen and (min-width: 1024px) {
-  .register{
-    padding-bottom: calc(100vh - 112px);
-  }
   .container{
     left: 34%;
   }

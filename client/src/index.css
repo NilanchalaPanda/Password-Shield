@@ -11,9 +11,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 code {
